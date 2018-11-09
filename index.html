@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Mofongo King</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="title">
+        <a href="index.html"><img src="logo/mofongoking.jpg" alt="logo" /></a>
+        <h1 class="Mofongo">The Mofongo King</h1>
+    </div>
+
+    <div class="description">
+        <div class="header">
+            <h1>Welcome to The Mofongo King</h1>
+            <p>Authentic Puerto Rican food<br />
+                Restaurant in Port St. Lucie coming soon<br />
+                #TheMofongoKing
+            </p>
+        </div>
+    </div>
+
+    <div class="nav">
+        <a href="menu.html">
+            <div class="menu" id="menu">
+                <h1>Menu</h1>
+            </div>
+        </a>
+        <a href="about.html">   
+            <div class="about" id="about">
+                <h1>About</h1>
+            </div>
+        </a>   
+        <a href="gallery.html">    
+            <div class="gallery" id="gallery">
+                <h1>Gallery</h1>
+            </div>
+        </a>
+    </div>
+
+    <div id="open" class="second-nav-open">
+        &#9776;
+    </div>
+
+    <div class="open-bg">
+        <div class="second-nav">
+                <div class="close1" id="close1">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                </div>
+            <div id="nav2" class="home">
+                <a href="index.html"><h1>Home</h1></a>
+            </div>
+            <div id="nav2" class="menu2">
+                <a href="menu.html"><h1>Menu</h1></a>
+            </div>
+            <div id="nav2" class="about2">
+                <a href="about.html"><h1>About</h1></a>
+            </div>
+            <div id="nav2" class="gallery2">
+                <a href="gallery.html"><h1>Gallery</h1></a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('open').addEventListener('click', function(){
+            document.querySelector('.open-bg').style.display = "block";
+        });
+        document.getElementById('close1').addEventListener('click', function(){
+            document.querySelector('.open-bg').style.display = "none";
+        });
+    </script>
+
+</body>
+</html>
+<footer>
+    <div>
+        <a href="https://www.instagram.com/themofongoking/"><img src="733536-social/svg/034-instagram.svg" alt="facebook-logo"></a>
+        <a href="https://www.facebook.com/themofongoking/"><img src="733536-social/svg/045-facebook.svg" alt="icons8-instagram-30"></a>
+    </div>
+    <p>Made by | <a href="https://www.instagram.com/prod.isaiah/">Isaiah Goycochea</a></p>
+</footer>

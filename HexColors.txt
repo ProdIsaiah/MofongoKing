@@ -1,0 +1,4 @@
+#EA2632 :Red
+#364394 :Blue
+#F4B04A :Gold
+#1F1F1F :OffBlack
