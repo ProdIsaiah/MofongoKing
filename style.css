@@ -294,33 +294,6 @@ footer div {
     }
 }
 
-@media screen and (max-width:320px) {
-    .container {
-        width: 100%;
-    }
-    .container1 {
-        width: 100%;
-    }
-    .container1 div {
-        margin: 10%;
-        width: 250px;
-        height: 200px;
-    }
-    .container div {
-        margin: 10%;
-        width: 250px;
-        height: 200px;
-    }
-    .container p {
-        margin-top: -30px;
-    }
-    .container1 p {
-        margin-top: -30px;
-
-        margin-bottom: 50px;
-    }
-}
-
 .foodoverlay {
     margin: 0 auto;
     width: 100%;
@@ -668,3 +641,70 @@ footer div {
     from {opacity: .4} 
     to {opacity: 1}
   }
+
+  @media screen and (max-width:420px) {
+    .description {
+        width: 80%;
+        position: relative;
+        left: 35px;
+        top: 0px;
+    }
+    .description h1 {
+        font-size: 30px;
+    }
+    .description p {
+        font-size: 15px;
+    }
+    .nav {
+        width: 80%;
+        position: absolute;
+        left: 35px;
+        top: 250px;
+    }
+    .container {
+        width: 80%;
+    }
+    .container1 {
+        width: 80%;
+        background: red;
+    }
+    .container div:nth-child(1) {
+        margin-top: 50px;
+    }
+    .container1 div {
+        margin-top: -10px;
+        margin: 40px;
+        width: 250px;
+        height: 200px;
+    }
+    .container div {
+        margin-top: -10px;
+        margin: 40px;
+        width: 250px;
+        height: 200px;
+    }
+    .container p {
+        margin-top: -30px;
+    }
+    .container1 p {
+        margin-top: -30px;
+        margin-bottom: 50px;
+    }
+    .about-title {
+        font-size: 20px;
+        margin: 0 auto;
+    }
+    .about-img {
+        width: 320px;
+        height: 110px;
+    }
+    .about-img img {
+        width: 260px;
+        position: relative;
+        left: 30px;
+    }
+    .about-description {
+        font-size: 12px;
+        width: 100%;
+    }
+}
