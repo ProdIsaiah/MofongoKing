@@ -644,11 +644,11 @@ footer div {
 
   @media screen and (max-width:420px) {
       .gallery-img {
-          background: #EA2632;
+          /* background: #EA2632; */
           width: 80%;
       }
       .slideshow-container {
-          background: orange;
+          /* background: orange; */
           position: absolute;
           top: 50%;
           left: 50%;
